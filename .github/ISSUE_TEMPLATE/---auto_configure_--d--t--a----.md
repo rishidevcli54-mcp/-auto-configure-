@@ -1,8 +1,8 @@
 ---
-name: "-auto-configure-  "
-about: Suggest an idea for this project
-title: Diagnose
-labels: enhancement
+name: '<\\auto_configure_"{d. t. a}", '
+about: Suggest an idea for future technology problem fixer
+title: "§problems//solver_for_'digital',tech/world://*;"
+labels: documentation, enhancement, good first issue, question, wontfix
 assignees: rishidevcli54-mcp
 
 ---
