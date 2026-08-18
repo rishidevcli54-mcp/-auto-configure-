@@ -16,3 +16,147 @@ bin-release/
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important
 # information for Eclipse / Flash Builder.
+
+# --- ECU-TEST / Tracetronic artifacts ---
+ecu-test-temp/
+ecu-test-cache/
+ecu-test-workspace/
+test-output/
+reports/
+logs/
+*.tce
+*.tcf
+*.tcr
+*.xml
+*.html
+
+# --- Generic test automation artifacts ---
+/tmp/
+/output/
+/results/
+/coverage/
+/*.log
+*.trace
+*.report
+*.dat
+
+# --- Python test tooling ---
+__pycache__/
+*.pyc
+*.pyo
+*.pytest_cache/
+.cache/
+
+# --- Node / JS test tooling ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- CI/CD generated files ---
+/dist/
+/build/
+/artifacts/
+/generated/
+
+# --- OS / Editor noise ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# --- Dependency & lock file noise ---
+package-lock.json.bak
+yarn.lock.bak
+pnpm-lock.yaml.bak
+shrinkwrap.json.bak
+
+# --- TypeScript declaration maps ---
+*.d.ts.map
+*.js.map
+*.cjs.map
+*.mjs.map
+
+# --- Temporary build artifacts ---
+.rollup.cache/
+.esbuild-cache/
+.swc/
+.webpack_cache/
+.parcel-cache/
+.vite/
+
+# --- Environment & secrets ---
+.env
+.env.local
+.env.*.local
+.env.production.local
+.env.test.local
+.secret*
+.credentials
+
+# --- IDE & Editor caches ---
+.eslintcache
+.stylelintcache
+.prettier-cache
+.htmlhint.cache
+*.sublime-workspace
+*.iml
+
+# --- Linting & formatting outputs ---
+.eslint-report.json
+.stylelint-report.json
+.tslint-report.json
+
+# --- Runtime & process management ---
+.pm2/
+forever.json
+nodemon.json.bak
+nohup.out
+
+# --- Testing coverage & reports ---
+.nyc_output/
+lcov-report/
+coverage-report/
+*.lcov
+clover.xml
+junit.xml
+test-results.json
+
+# --- Documentation generation ---
+docs/api/
+docs/generated/
+.typedoc/
+.jsdoc-cache/
+
+# --- Git & version control ---
+.git-hooks/
+.husky/
+.lintstagedrc.json.bak
+
+# --- TypeScript-specific artifacts ---
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+.tsc-out/
+dist-esm/
+dist-cjs/
+
+# --- Build & Package manager caches ---
+.pnpm-store/
+.yarn/
+pnpm-lock.yaml
+yarn.lock
+.turbo/
+lerna-debug.log
+
+# --- Miscellaneous ---
+*.pid
+*.seed
+*.pid.lock
+*.tgz
+*.swp
+*.swo
+*~
+.eslintignore.bak
+.prettierignore.bak
+thumbs.db
+Thumbs.db:encryptable
